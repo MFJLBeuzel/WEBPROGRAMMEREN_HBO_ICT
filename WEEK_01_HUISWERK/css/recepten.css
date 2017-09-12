@@ -1,0 +1,32 @@
+/*We gaan de pagina huiswerk.html een achtergrondkleur geven en
+gaan de kop centreren. Voeg aan het css-bestand de volgende
+code toe: */
+
+body {
+  background-color: antiquewhite;
+}
+
+p {
+  font-family: Georgia, serif;
+  font-size: 25px;
+}
+
+.midden {
+  text-align: center;
+}
+
+.lijstje {
+  list-style-position: inside;
+  text-align: left;
+  padding-left: 40%;
+}
+
+.tabel {
+  border: 5px solid green;
+  border-radius: 5px;
+}
+
+.x {
+  border: 10px solid lightgreen;
+  border-radius: 5px;
+}
