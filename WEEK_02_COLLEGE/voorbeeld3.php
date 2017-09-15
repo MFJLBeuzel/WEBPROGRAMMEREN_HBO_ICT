@@ -1,9 +1,9 @@
 <?php
-$scoreThuis;
-$scoreUit;
-$aantalPuntenThuisteam;
-$aantalPuntenUitteam;
+$naam = "justin";
+echo $naam;
 
-if (winning) {
-    # code...
-}
+$naamhoofdletter = ucfirst($naam);
+echo $naamhoofdletter;
+
+$naamuppercase = strtoupper($naam);
+echo $naamuppercase;
