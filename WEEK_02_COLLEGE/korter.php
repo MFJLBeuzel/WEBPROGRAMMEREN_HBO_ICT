@@ -13,8 +13,8 @@ if ($gebruikersnaam == "user") {
 $gebruikersnaam = trim(fgets(STDIN));
 $wachtwoord = trim(fgets(STDIN));
 
-if ($gebruikersnaam == "user" && $wachtwoord == "pass") {
-    echo "Welkom!";
+if (($gebruikersnaam == 'user') && ($wachtwoord == 'pass')) {
+    echo 'Welkom' . ' ' . $gebruikersnaam . '!';
 } else {
-    echo "Verboden voor onbevoegden!";
+    echo 'Verboden voor onbevoegden!';
 }
