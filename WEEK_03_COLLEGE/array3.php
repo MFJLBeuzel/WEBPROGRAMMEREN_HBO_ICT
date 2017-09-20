@@ -1,4 +1,4 @@
-<?php
+ <?php
 const BR = "\n";
 
 $temperaturen = array('Assen' => 14.6,'Maastricht' => 17.4,'Zwolle' => 15.2,
