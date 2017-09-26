@@ -1,20 +1,33 @@
 <?php
+const nl = "\n";
 //associative array
 $prijzen = ['cola' => 2.50,'koffie' => 2,'thee' => 1.75,'bier' => 2.25,
             'wijn' => 3.75,'water' => 0.50];
 
-$duurste_drank_prijs = max($prijzen);
-$key_duurste_drank = array_search($duurste_drank_prijs, $prijzen);
+$max_prijs = max($prijzen);
+$duurste_drank = array_search($max_prijs, $prijzen);
 
-echo 'Het duurste drankje kost: ' . $duurste_drank_prijs . "\n" .
-'En het product is: ' . $key_duurste_drank . "\n";
+echo 'Het duurste drankje kost: ' . $max_prijs . nl .
+'En het product is: ' . $duurste_drank . nl;
 
-$gemiddelde_drank_prijs = array_sum($prijzen)/count($prijzen);
-echo 'De gemiddelde drank prijs is: ' . $gemiddelde_drank_prijs . "\n";
+$avg_drank_prijs = array_sum($prijzen)/count($prijzen);
+echo 'De gemiddelde drank prijs is: ' . $avg_drank_prijs . nl;
 
-$bestelling = ['cola','bier','cola', 'wijn','water','koffie','koffie','koffie'];
+$prijzen['thee'] += 0.1;
+echo 'Thee kost vanaf nu ' . $prijzen['thee']. nl;
 
-echo 'De bestelling is: ' . "\n";
-foreach ($bestelling as $bestel) {
-    echo $bestel . "\n";
+$bestelling1 = ['cola','bier','cola', 'wijn','water','koffie','koffie','koffie'];
+
+echo 'De bestelling is: ' . nl;
+foreach ($bestelling1 as $bestel) {
+    echo $bestel . nl;
 }
+
+$kosten = 0;
+foreach ($bestelling1 as $drankje) {
+    $kosten += $prijzen[$drankje];
+}
+echo 'Deze bestelling kost: ' . $kosten .  nl;
+
+//i
+$bestelling2 = ['cola' => 2,'bier' => 1,'wijn' => 1,'water' => 1,'koffie' => 3];

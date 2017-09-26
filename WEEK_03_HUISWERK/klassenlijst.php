@@ -1,7 +1,8 @@
 <?php
 const BR = "\n";
 $klassenlijst = array("tobias", "hasna", "aukje", "fred");
-asort($klassenlijst);
+//made a mistake, used asort():results in keeping index and name matched.
+sort($klassenlijst);
 print_r($klassenlijst);
 
 echo '0:' . $klassenlijst[0] . BR;
