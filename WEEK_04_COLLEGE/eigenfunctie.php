@@ -8,3 +8,9 @@ function tekenSterren($aantal)
 }
 
 tekenSterren(8);
+
+//functie om score bij te houden
+function updateScore($player,$points) {
+  $score = $player->getScore();
+  $player->setScore($score +$points);
+}

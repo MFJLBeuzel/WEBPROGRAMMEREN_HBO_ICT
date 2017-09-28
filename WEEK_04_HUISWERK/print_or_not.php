@@ -1,9 +1,18 @@
 <?php
-function optellen($a, $b)
+/*$naam = 'adje';
+$naamHoofdletter = ucfirst($naam);
+
+echo $naamHoofdletter;*/
+
+function printCitaat($citaat)
 {
-    return ($a + $b);
-    //$som = $a + $b;
-    //return $som;
+    echo '--- ' . ucfirst($citaat) .' ---';
 }
 
-echo optellen(5, 5) . "\n";
+function printCitaat2($citaat, $auteur)
+{
+    echo '--- ' . ucfirst($citaat) . ': ' . ucfirst($auteur) . ' ---';
+}
+
+printCitaat('to be or not to be');
+printCitaat2('lik toch mijn bolle billen!', 'unknown');
