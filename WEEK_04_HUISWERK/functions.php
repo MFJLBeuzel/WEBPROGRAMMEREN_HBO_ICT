@@ -1,5 +1,5 @@
 <?php
-function optellen($a, $b)
+/*function optellen($a, $b)
 {
 
     $som = $a + $b;
@@ -17,3 +17,30 @@ function optellenBijStartwaarde($getal)
 
 $startwaarde = 10;
 echo optellenBijStartwaarde(20);
+
+function tekenSterren()
+{
+    echo '*****' . "\n";
+}
+
+for ($i=0; $i < 10; $i++) {
+    tekenSterren();
+}
+
+$i=10;
+*/
+
+function maxGetal($getal1, $getal2)
+{
+    if ($getal1 >= $getal2) {
+        return $getal1;
+    } else {
+        return $getal2;
+    }
+}
+
+$maximum = maxGetal(3, 7);
+echo $maximum . "\n";
+
+$getal = maxGetal(2, 4) + 1;
+echo $getal . "\n";
