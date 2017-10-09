@@ -5,12 +5,14 @@
     <title></title>
   </head>
   <body>
-    <form name = "formulier" action = "send.php" method = "get">
-      Typ hier uw voornaam: <input type = "text" name = "voornaam"><br><br>
+    <form name = "formulier" action = "send2.php" method = "get">
+      Typ hier uw voornaam: <input type = "text" name = "voornaam">
+      <input type="radio" name="sex" value="male" /> Man
+      <input type="radio" name="sex" value="female" /> Female<br><br>
       Typ hier uw achternaam: <input type = "text" name = "achternaam"><br><br>
-      <input type="radio" name="device1" value="ipod" checked> Ipod<br>
-      <input type="radio" name="device2" value="ipad"> Ipad<br>
-      <input type="radio" name="device3" value="iphone"> Iphone<br><br>
+      <input type="checkbox" name="device" value="Ipod" checked> Ipod<br>
+      <input type="checkbox" name="device" value="Ipad"> Ipad<br>
+      <input type="checkbox" name="device" value="Iphone"> Iphone<br><br>
       <input type="submit" value="Verzenden">
     </form>
   </body>
