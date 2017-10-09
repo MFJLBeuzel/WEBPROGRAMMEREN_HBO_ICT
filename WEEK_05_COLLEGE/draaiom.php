@@ -1,11 +1,11 @@
 <?php
-function draaiom($lijstje)
+function draaiom($lijst)
 {
-    $reverse = array_reverse($lijstje);
+    $reverse = array_reverse($lijst);
     return $reverse;
 }
 
 $lijstje = [2,3,1,6];
 $draaiom = draaiom($lijstje);
 
-echo $draaiom;
+print_r  ($draaiom);

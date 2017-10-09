@@ -10,7 +10,7 @@
       <input type="radio" name="sex" value="male" /> Man
       <input type="radio" name="sex" value="female" /> Female<br><br>
       Typ hier uw achternaam: <input type = "text" name = "achternaam"><br><br>
-      <input type="checkbox" name="device" value="Ipod" checked> Ipod<br>
+      <input type="checkbox" name="device" value="Ipod"> Ipod<br>
       <input type="checkbox" name="device" value="Ipad"> Ipad<br>
       <input type="checkbox" name="device" value="Iphone"> Iphone<br><br>
       <input type="submit" value="Verzenden">

@@ -12,7 +12,7 @@ $voornaam = $_GET["voornaam"];
   <h1>Resultaten</h1>
   <ul>
     <?php foreach ($_GET as $veld => $waarde) {
-        echo "<li>" . $veld . ":" . $waarde . "</li>";
+        echo '<li>' . $veld . ':' . $waarde . '</li>';
 } ?>
   </ul>
 </body>

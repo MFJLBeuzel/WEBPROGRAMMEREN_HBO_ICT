@@ -7,5 +7,5 @@ function gemiddelde($lijst)
 }
 
 $lijstje = [2,3,1,6];
-
-echo gemiddelde($lijstje);
+$gemiddelde = gemiddelde($lijstje);
+echo $gemiddelde;

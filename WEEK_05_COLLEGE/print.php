@@ -1,5 +1,5 @@
 <?php
-const BR = "\n";
+const BR = '<br>';
 function print_r_mooi($lijst)
 {
     echo '|-----|-----|' . BR;
@@ -7,9 +7,10 @@ function print_r_mooi($lijst)
     echo '|-----|-----|' . BR;
 
     foreach ($lijst as $key => $value) {
-        echo . $key . '|' . $value . '|';
+        echo '|' . $key . ' ' . '|' . $value . '|' . BR;
+        echo '|------|------|' . BR;
     }
 }
 
 $lijstje = [2,3,1,6];
-echo $lijstje;
+print_r_mooi($lijstje);
