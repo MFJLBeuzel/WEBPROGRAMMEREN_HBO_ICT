@@ -2,20 +2,19 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Opgave 4</title>
+        <title>Opgave 7</title>
     </head>
     <body>
-        <h1>Opgave 4</h1>
+        <h1>Opgave 7</h1>
         <?php
         /* Gebruik onderstaande variabelen in de uitwerking */
-        $prijsPerStuk = 2;
-        $aantal = 60;
-        $vasteKlant = false;
-
-        $totaal = $prijsPerStuk * $aantal;
+        $tafel = 5;
 
         /* Begin uitwerking */
-        
+        for ($i=0; $i <= 10; $i++) {
+            echo $i . ' x ' . $tafel . ' = ' . ($tafel * $i) . '<br>';
+        }
+
         /* Einde uitwerking */
         ?>
     </body>

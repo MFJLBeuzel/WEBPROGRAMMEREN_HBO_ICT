@@ -9,16 +9,16 @@
         <h1>Opgave 5</h1>
         <?php
         /* Gebruik onderstaande variabelen in de uitwerking */
-        $maaltijd = "lunch";
+        $maaltijd = 'ontbijt';
 
         /* Begin uitwerking */
-        $reserveringen = array("ontbijt" => 10, "lunch" => 40, "diner" => 51);
+        $reserveringen = ['ontbijt'=>10,'lunch'=>40,'diner'=>51];
 
-        print($maaltijd . ": " . $reserveringen[$maaltijd]);
+        echo $maaltijd . ': ' . $reserveringen[$maaltijd] . '<br>';
         $reserveringen[$maaltijd] = $reserveringen[$maaltijd] + 1;
 
-        print("<br>" . $maaltijd . ": " . $reserveringen[$maaltijd]);
-
+        echo $maaltijd . ': ' . $reserveringen[$maaltijd] . '<br>';
+        
         /* Einde uitwerking */
         ?>
     </body>

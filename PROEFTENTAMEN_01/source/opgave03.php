@@ -12,16 +12,7 @@
         $afstand = 5;
 
         /* Begin uitwerking */
-        if ($weekend) {
-            echo 'Fiets';
-        } else {
-          if($afstand <= 10) {
-            echo 'Fiets';
-          } else {
-            echo 'Auto';
-          }
-
-
+      
         /* Einde uitwerking */
         ?>
     </body>
