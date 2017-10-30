@@ -1,22 +1,17 @@
 <!DOCTYPE html>
-<!--[Vul hier je naam en studentnummer in]-->
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Opgave 6</title>
+        <title>Opgave 7</title>
     </head>
     <body>
-        <h1>Opgave 6</h1>
+        <h1>Opgave 7</h1>
         <?php
         /* Gebruik onderstaande variabelen in de uitwerking */
-        $lengtemetingen = [120, 122, 122, 127];
 
-        for ($i=0; $i < 4; $i++) {
-            echo $i;
-        }
+        $aantalWeken = 3;
 
         /* Begin uitwerking */
-
 
         /* Einde uitwerking */
         ?>

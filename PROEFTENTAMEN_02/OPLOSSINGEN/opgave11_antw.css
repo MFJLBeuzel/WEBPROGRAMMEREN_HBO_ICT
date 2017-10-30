@@ -1,0 +1,31 @@
+/* Opgave 11*/
+/* Begin uitwerking */
+table {
+    border: solid black 5px;
+    text-align: center;
+    width: 300px;
+}
+td{
+    width: 100px;
+}
+.zwart{
+    background-color: black;
+    color: white;
+}
+.grijs{
+    background: gray;
+}
+.goud{
+    background-color: gold;
+}
+#kop{
+    width: 300px;
+    font-size: 22px;
+    border-bottom: solid;
+    border-top: solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+/* Einde uitwerking */

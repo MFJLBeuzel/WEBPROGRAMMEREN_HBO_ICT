@@ -1,0 +1,22 @@
+/* Opgave 11*/
+/* Begin uitwerking */
+body {
+    background-image: url("tropisch.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: orange;
+    font-size: 30px;
+}
+
+#top {
+  background-color: grey;
+  color: gold;
+  font-family: lucida console;
+  font-style: italic;
+  font-size: 50px;
+}
+
+.div {
+  padding-left: 40px;
+}
+/* Einde uitwerking */
