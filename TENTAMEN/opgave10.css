@@ -1,0 +1,27 @@
+/* Opgave 10*/
+/*<!-- Maarten Beuzel s1123791 -->*/
+/* Begin uitwerking */
+body {
+  font-family: Arial
+}
+
+li {
+  background-color: grey;
+  width: 500px;
+}
+
+table {
+    border: solid red 5px;
+    text-align: center;
+    width: 500px;
+}
+
+#kop {
+  font-size: 22px;
+  border-style: solid;
+  border-color: red;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* Einde uitwerking */
