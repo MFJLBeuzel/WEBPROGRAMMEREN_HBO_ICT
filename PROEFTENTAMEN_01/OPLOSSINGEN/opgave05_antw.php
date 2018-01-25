@@ -15,7 +15,7 @@
         $reserveringen = array("ontbijt" => 10, "lunch" => 40, "diner" => 51);
 
         print($maaltijd . ": " . $reserveringen[$maaltijd]);
-        $reserveringen[$maaltijd] = $reserveringen[$maaltijd] + 1;
+        $reserveringen[$maaltijd]++;
 
         print("<br>" . $maaltijd . ": " . $reserveringen[$maaltijd]);
 

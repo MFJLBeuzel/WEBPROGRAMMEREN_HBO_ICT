@@ -7,17 +7,23 @@
 </head>
 <body>
 <form method="post" action="formulier.php">
-E-mail: <input type="email" name="email" value="<?php echo $_POST["email"]; ?>"><br/><br/>
-Onderwerp: <input type="text" name="onderwerp" value=""><br/><br/>
-Bericht: <input type="text" value=""><br/><br/>
-<input type="submit" name="submit" value="Verstuur bericht!" >
+E-mail: <input type="email" name="email" value="<?php echo $_POST["email"]; ?>"> <br/><br/>
+Onderwerp: <input type="text" name="onderwerp" value="<?php echo $_POST["onderwerp"]; ?>"><br/><br/>
+Bericht: <input type="text" name="bericht"value="<?php echo $_POST["bericht"]; ?>"><br/><br/>
+<input type="submit" name="submit" value="Verstuur bericht!">
 </form>
 <?php
 if (isset($_POST["submit"])) {
-    if ($_POST["onderwerp"] == "") {
-        echo 'Onderwerp is niet ingevuld';
+    if (empty($_POST["email"])) {
+        echo 'E-mail is niet ingevoerd' . '<br />';
+    }
+    if (empty($_POST["onderwerp"])) {
+        echo 'Onderwerp is niet ingevuld' . '<br />';
+    }
+    if (empty($_POST["bericht"])) {
+        echo 'Bericht is niet ingevuld' . '<br />';
     } else {
-        echo 'Bericht is ' . '<br />' . $_GET["bericht"];
+        echo 'Bericht is ' . $_POST["bericht"];
     }
 }
     ?>

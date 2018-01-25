@@ -1,0 +1,22 @@
+/* Opgave 10*/
+/*M.F.J.L. Beuzel s1123791*/
+/* Begin uitwerking */
+body {
+  font-family: Arial
+}
+
+#h1 {
+  border: solid grey 5px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.list1 {
+  list-style-image: url(plus.jpg);
+}
+
+.list2 {
+  list-style-image: url(min.jpg);
+}
+/* Einde uitwerking */
